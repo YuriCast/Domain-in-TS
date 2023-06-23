@@ -13,22 +13,41 @@ class Produto {
 		this.qtd = qtd;
 		this.localizacao = localizacao;
 	}
-    getID(ID){
+    getID(){
 // retorna id do produto
     }
-    getNome(nome){
+    getNome(){
 //retorna o nome do produto
     }
-    getTamanho(tamanho){
+    getTamanho(){
 //retorna o tamanho do produto
     }
-    getCor(cor){
+    getCor(){
 //retorna a cor do produto
     }
-    getQtd(qtd){
+    getQtd(){
 //retorna a quantidade de produtos
     }
-    getLocalizacao(localizacao){
+    getLocalizacao(){
 //retorna a localização do produto
+    }
+}
+
+class Estoque {
+	listaProduto: string;
+	qtdMinima: number;
+	
+	constructor(listaProduto: string, qtdMinima: number){
+		this.listaProduto = listaProduto;
+		this.qtdMinima = qtdMinima;
+	}
+    setProduto(produto){
+//altera o valor/conteudo do atributo produto
+    }
+    setQtdMinima(){
+//altera o valor/conteudo do atributo QtdMinima
+    }
+    getQtdMinima(){
+//exibe o valor/conteudo do atributo produto
     }
 }
