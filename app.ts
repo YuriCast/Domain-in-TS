@@ -77,3 +77,18 @@ class Venda {
 //exibe o valor no qual o produto foi vendido
     }
 }
+
+class Historico {
+	produtoVendido: string;
+	qtdVendida: number;
+	dataVenda: Date;
+	valorVenda: number;
+	
+	constructor(produtoVendido: string, qtdVendida: number, dataVenda: Date, valorVenda: number){
+		this.produtoVendido = produtoVendido;
+		this.qtdVendida = qtdVendida;
+		this.dataVenda = dataVenda;
+		this.valorVenda = valorVenda;
+	}
+
+}
