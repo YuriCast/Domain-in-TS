@@ -51,3 +51,29 @@ class Estoque {
 //exibe o valor/conteudo do atributo produto
     }
 }
+
+class Venda {
+	produtoVendido: string;
+	qtdVendida: number;
+	dataVenda: Date;
+	valorVenda: number;
+	
+	constructor(produtoVendido: string, qtdVendida: number, dataVenda: Date, valorVenda: number){
+		this.produtoVendido = produtoVendido;
+		this.qtdVendida = qtdVendida;
+		this.dataVenda = dataVenda;
+		this.valorVenda = valorVenda;
+	}
+    getProdutoVendido(){
+//exibe o produto vendido
+    }
+    getQtdVendida(){
+//exibe a quantidade de produtos vendidos
+    }
+    getDataVenda(){
+//exibe da data no qual o produto foi vendido
+    }
+    getValorVenda(){
+//exibe o valor no qual o produto foi vendido
+    }
+}
