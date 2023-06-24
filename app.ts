@@ -76,19 +76,10 @@ class Venda {
     getValorVenda(){
 //exibe o valor no qual o produto foi vendido
     }
-}
-
-class Historico {
-	produtoVendido: string;
-	qtdVendida: number;
-	dataVenda: Date;
-	valorVenda: number;
-	
-	constructor(produtoVendido: string, qtdVendida: number, dataVenda: Date, valorVenda: number){
-		this.produtoVendido = produtoVendido;
-		this.qtdVendida = qtdVendida;
-		this.dataVenda = dataVenda;
-		this.valorVenda = valorVenda;
-	}
-
+    calcLucro(){
+//calcula o custo menos o valor da venda
+    }
+    analisaTentencia(){
+//anasila a quantidade de vendar
+    }
 }
