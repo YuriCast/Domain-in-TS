@@ -41,7 +41,7 @@ class Estoque {
 		this.listaProduto = listaProduto;
 		this.qtdMinima = qtdMinima;
 	}
-    setProduto(produto){
+    setProduto(){
 //altera o valor/conteudo do atributo produto
     }
     setQtdMinima(){
@@ -84,5 +84,25 @@ class Venda {
     }
     analisaTentencia(){
 //analisa os produtos mais vendidos e estipula uma possivel tendencia
+    }
+}
+class Fornecedor {
+	nomeFornecedor: string;
+	infoContato: string;
+	prazoEntrega: number;
+	
+	constructor(nomeFornecedor: string, infoContato: string, prazoEntrega: number){
+		this.nomeFornecedor = nomeFornecedor;
+		this.infoContato = infoContato;
+		this.prazoEntrega = prazoEntrega;
+	}
+    getNomeFornecedor(){
+//exibe o nome do fornecedor
+    }
+    getInfoContato(){
+//exibe a informação de contato
+    }
+    getQtdMinima(){
+//exibe o prazo de entrega
     }
 }
