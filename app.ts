@@ -50,6 +50,9 @@ class Estoque {
     getQtdMinima(){
 //exibe o valor/conteudo do atributo produto
     }
+    ordemCompra(){
+//de acordo com o metodo "analisaTendencia", cria uma ordem de compra um certo produto
+}
 }
 
 class Venda {
@@ -80,6 +83,6 @@ class Venda {
 //calcula o custo menos o valor da venda
     }
     analisaTentencia(){
-//anasila a quantidade de vendar
+//analisa os produtos mais vendidos e estipula uma possivel tendencia
     }
 }
